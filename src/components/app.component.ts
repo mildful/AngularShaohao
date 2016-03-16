@@ -1,6 +1,8 @@
 import { Component } from "angular2/core";
 import { RouteConfig, ROUTER_DIRECTIVES } from "angular2/router";
-import { HomeComponent, NavComponent } from "./index";
+import { HomeComponent} from "./home.component";
+import { NavComponent} from "./nav.component";
+
 
 @Component({
     selector: 'app-view',
